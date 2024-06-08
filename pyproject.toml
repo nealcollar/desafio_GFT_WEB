@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "desafio-banco-abc"
+version = "0.1.0"
+description = "desafio para medir capacidade do empregado antes da vaga"
+authors = ["Augusto Cesar Pupo Vieira <augustos_cesar@hotmail.com.br>"]
+readme = "README.md"
+packages = [{include = "run_tests.py"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+robotframework-seleniumlibrary = "^6.4.0"
+pyyaml = "^6.0.1"
+pytz = "^2024.1"
+robotframework-faker = "^5.0.0"
+
+[tool.poetry.dev-dependencies]
+robotframework-debuglibrary = "<2"
+
+[tool.poetry.scripts]
+web = "run_tests:robot_local_exe"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

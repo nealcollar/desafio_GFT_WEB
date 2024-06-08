@@ -1,0 +1,9 @@
+/.vscode/*
+**/*cache*/*
+/Result/*
+/*venv*/*
+/results/*
+**.html
+**.xml
+**.png
+**.lock
