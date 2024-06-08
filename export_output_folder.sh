@@ -1,1 +1,0 @@
-export OUTPUT_FOLDER='03-06-24_03-35-55'
