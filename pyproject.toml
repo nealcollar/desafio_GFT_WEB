@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "desafio-banco-abc"
+name = "desafio-GFT-WEB"
 version = "0.1.0"
 description = "desafio para medir capacidade do empregado antes da vaga"
 authors = ["Augusto Cesar Pupo Vieira <augustos_cesar@hotmail.com.br>"]

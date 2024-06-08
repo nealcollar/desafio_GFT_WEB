@@ -1,6 +1,6 @@
 # Desafio GFT WEB
 
-Projeto destinado à criação das automações de WEB que o __Banco ABC__ utiliza para avaliar seus candidatos.
+Projeto destinado à criação das automações de WEB que o __Desafio da GFT__ utiliza para avaliar seus candidatos.
 
 Neste documento falaremos sobre o projeto como um todo, desde as arquiteturas que temos até as configurações iniciais para rodar o projeto na sua máquina.
 
@@ -120,7 +120,7 @@ Neste documento falaremos sobre o projeto como um todo, desde as arquiteturas qu
         ```
         {
             "robotcode.robot.variables": {
-                "ROOT": "PATH_ate_a_sua_pasta_do_projeto\\Banco_ABC_WEB",
+                "ROOT": "PATH_ate_a_sua_pasta_do_projeto\\DESAFIO_GFT_WEB",
                 "ENV": "LOCAL",
                 "LOG_LEVEL": "TRACE"
             }

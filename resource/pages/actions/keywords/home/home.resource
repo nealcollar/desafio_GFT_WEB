@@ -5,7 +5,7 @@ Resource     ${ROOT}/resource/pages/objects/home/home_objects.resource
 *** Keywords ***
 Pre informacoes pra novo cadastro
     Abrir navegador chrome
-    Acessar Web-site    ${WEB_SITE.AUTOMCAO_ABC.URL}
+    Acessar Web-site    ${WEB_SITE.AUTOMCAO.URL}
     ${name}    FakerLibrary.Name
     Set Test Variable    ${nome_falso}    ${name}
     ${email}    FakerLibrary.Email
